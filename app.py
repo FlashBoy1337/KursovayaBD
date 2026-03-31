@@ -17,6 +17,7 @@ class FurnitureApp(tk.Tk):
         self.title("ИС Производство мебели")
         self.geometry("1000x700")
         
+        
         self.conn = None
         self.connect_db()
 
